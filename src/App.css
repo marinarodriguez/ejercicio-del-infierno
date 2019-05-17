@@ -1,5 +1,23 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+.first__filter {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.second__filter {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.people {
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
 
 .App-logo {

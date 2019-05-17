@@ -2,7 +2,7 @@ import React from "react";
 
 function PeopleList(props) {
   return (
-    <ul>
+    <ul className="people">
       {props.peopleData.map((person, ind) => {
         return (
           <li key={ind}>
